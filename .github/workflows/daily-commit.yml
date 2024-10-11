@@ -1,0 +1,29 @@
+name: Daily Commit
+on:
+  schedule:
+    # Runs 3 times a day (00:00, 08:00, 16:00 UTC)
+    - cron: '0 0 * * *'
+    - cron: '0 8 * * *'
+    - cron: '0 16 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        
+      - name: Make a trivial change
+        run: |
+          date >> commit-log.txt
+          
+      - name: Commit changes
+        run: |
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "your GitHub username"
+          git add commit-log.txt
+          git commit -m "Automated commit"
+          git push
+
+
