@@ -20,8 +20,8 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "your GitHub username"
+          git config --global user.email "chisomkalu09@gmail.com"
+          git config --global user.name "codedcek"
           git add commit-log.txt
           git commit -m "Automated commit"
           git push
