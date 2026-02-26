@@ -144,7 +144,7 @@ I bring a rare combination — academic CS knowledge, real business ownership ex
 
 ![Chisom's GitHub Stats](https://github-readme-stats.vercel.app/api?username=codedcek&show_icons=true&theme=tokyonight&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=codedcek&layout=compact&theme=tokyonight&hide_border=true)
-
+[![LeetCode](https://img.shields.io/badge/LeetCode-codecek-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/codecek)
 ---
 
 ## 🌐 Connect With Me
