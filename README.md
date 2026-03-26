@@ -66,24 +66,13 @@ I enjoy backend development, automating things that shouldn't be manual, and bui
 ### 🔍 BSCAN — Web Auditing & SEO Intelligence Platform
 Full SaaS product, live in production at [bscan.balancewises.io](https://bscan.balancewises.io)
 
-- FastAPI + SQLite + Redis + Celery backend on DigitalOcean
-- Website scanner with SEO, performance, accessibility, security, and mobile scoring
-- AI-powered fix suggestions (Groq/Llama)
-- Deep crawl engine (follows internal links, audits each page)
-- Bulk scan for multiple URLs
-- Compare tool (head-to-head site analysis)
-- SEO tools: Google Search Console OAuth integration, backlink analysis, AI keyword research
-- Cloudflare Browser Rendering (Puppeteer Worker) for JS-heavy sites
-- Full Stripe billing with subscription plans, promo codes, and gift plans
-- Team management with roles and shared scans
-- PDF report generation
-- Site monitoring with email alerts
-- API key system for developer access
-- Public leaderboard
-- Admin dashboard (SvelteKit) with 40+ endpoints covering analytics, user management, marketing, outreach, and social posting
-- Automated social media engine — AI-generated posts scheduled via Celery to Discord, Telegram, Bluesky, Slack, X, LinkedIn, and Reddit from one admin panel
-- GitHub Pages frontend with Cloudflare DNS
-
+- Full-stack web auditing platform with 40+ API endpoints
+- AI-powered analysis and fix suggestions
+- Multi-page deep crawl and bulk scanning
+- SEO tooling with Google Search Console integration
+- Subscription billing, team management, and API key access
+- Admin dashboard with analytics, marketing, and automated social media engine
+- Built and deployed solo — backend, frontend, DevOps, billing, and marketing
 ### 🔌 REST APIs (PHP · MySQL · PDO)
 Production-ready APIs with full CRUD, bearer token auth, pagination, JOINs, PATCH pattern, and secure PDO prepared statements.
 
