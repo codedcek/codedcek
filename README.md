@@ -65,7 +65,7 @@ Level 3 avg: 61% · Intro to Computing & Coding: **78%**
 - Microsoft Azure AI Fundamentals (AI-900) · 2024
 - Mental Health First Aid · MHFA England · 2024
 - SIA Door Supervisor Licence · 2024
-- GitHub Student Developer Pack · 2025–2028
+
 
 ---
 
